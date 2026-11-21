@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRO CLEAN MOBILE KENITRA | Lavage auto à domicile</title>
+  <meta name="description" content="PRO CLEAN MOBILE KENITRA : lavage automobile professionnel et detailing directement à domicile à Kénitra. Réservez par téléphone ou WhatsApp.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Outfit = police française · Cairo = police arabe (mode AR) -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= SECTION 1 : HEADER ================= -->
+  <header class="header" id="header">
+    <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+    <div class="container header__inner">
+      <!-- LOGO OFFICIEL : images/logo.png (logo PRO CLEAN MOBILE KENITRA).
+           Pour le changer, remplacez simplement ce fichier (même nom) : rien à modifier dans le CSS. -->
+      <a href="#accueil" class="logo" aria-label="PRO CLEAN MOBILE KENITRA - Accueil" data-i18n-attr="aria-label=logo.aria">
+        <img class="logo__img" src="logo lavage ayoub.jpeg" alt="Logo PRO CLEAN MOBILE KENITRA" data-i18n-attr="alt=logo.img.alt" width="48" height="48">
+        <span class="logo__text"><span class="logo__name">PRO CLEAN <b>MOBILE</b></span><small class="logo__city">KENITRA</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale" data-i18n-attr="aria-label=nav.aria">
+        <ul class="nav__list">
+          <li><a href="#accueil" class="nav__link active" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="#services" class="nav__link" data-i18n="nav.services">Services</a></li>
+          <li><a href="#apropos" class="nav__link" data-i18n="nav.about">À propos</a></li>
+          <li><a href="#galerie" class="nav__link" data-i18n="nav.gallery">Galerie</a></li>
+          <li><a href="#avis" class="nav__link" data-i18n="nav.reviews">Avis</a></li>
+          <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta-mobile" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener" data-i18n="cta.wa">Réservation WhatsApp</a>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Sélecteur de langue FR | AR -->
+        <div class="lang" role="group" aria-label="Langue" data-i18n-attr="aria-label=lang.aria">
+          <button type="button" class="lang__btn active" data-lang="fr" lang="fr" aria-pressed="true">FR</button>
+          <span class="lang__sep" aria-hidden="true">|</span>
+          <button type="button" class="lang__btn" data-lang="ar" lang="ar" aria-pressed="false">AR</button>
+        </div>
+
+        <a class="btn btn--primary header__cta" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.3L2 22l4.8-1.2A11 11 0 1 0 20.5 3.5zM12 20a9 9 0 0 1-4.6-1.3l-.3-.2-2.8.7.8-2.7-.2-.3A9 9 0 1 1 12 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 0 1-3.7-3.2c-.3-.5.3-.5.8-1.5a.6.6 0 0 0 0-.5l-.9-2.1c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.7a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c-.1-.1-.3-.2-.6-.3z"/></svg>
+          <span data-i18n="cta.reserve">Réserver</span>
+        </a>
+
+        <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ================= SECTION 2 : HERO ================= -->
+  <section class="hero" id="accueil">
+    <!-- IMAGE HERO À REMPLACER : remplacez simplement le fichier images/hero.jpg (même nom).
+         Rien à modifier dans le CSS. Format conseillé : 1920x1080 (paysage), moins de 300 Ko. -->
+    <div class="hero__bg">
+      <img class="hero__img" src="hero img.png" alt="Lavage automobile professionnel à domicile à Kénitra" data-i18n-attr="alt=hero.alt" fetchpriority="high" decoding="async">
+    </div>
+    <div class="container hero__content">
+      <span class="eyebrow reveal-hero" style="--d:0s" data-i18n="hero.eyebrow">[ Lavage auto à domicile · Kénitra ]</span>
+      <h1 class="reveal-hero" style="--d:.1s" data-i18n="hero.title">Votre voiture mérite un nettoyage d'exception.</h1>
+      <p class="hero__sub reveal-hero" style="--d:.2s" data-i18n="hero.sub">PRO CLEAN MOBILE KENITRA vous propose un lavage professionnel directement à domicile à Kénitra.</p>
+      <div class="hero__btns reveal-hero" style="--d:.3s">
+        <a class="btn btn--primary" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener" data-i18n="hero.btn1">Réserver maintenant</a>
+        <a class="btn btn--outline" href="#services" data-i18n="hero.btn2">Découvrir nos services</a>
+      </div>
+    </div>
+    <div class="hero__dots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+  </section>
+
+  <!-- ================= SECTION 3 : SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--accent" data-i18n="sv.eyebrow">[ Nos services ]</span>
+        <h2 data-i18n="sv.title">Les services que nous proposons</h2>
+        <p data-i18n="sv.sub">Des prestations professionnelles pour garder votre véhicule propre et bien entretenu.</p>
+      </div>
+
+      <div class="services">
+        <!-- IMAGE À REMPLACER : images/service-1.svg → votre photo de lavage à domicile (ex. service-1.jpg) -->
+        <article class="card reveal">
+          <img src="lavage domicile.png" alt="Lavage auto à domicile à Kénitra" data-i18n-attr="alt=sv1.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">01</span>
+            <h3 data-i18n="sv1.t">Lavage Auto à Domicile</h3>
+            <p data-i18n="sv1.d">Nettoyage complet de votre voiture, réalisé directement chez vous à Kénitra.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-2.svg → photo liée à la livraison / service à votre porte -->
+        <article class="card reveal">
+          <img src="livraison.png" alt="Service de livraison PRO CLEAN MOBILE KENITRA" data-i18n-attr="alt=sv2.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">02</span>
+            <h3 data-i18n="sv2.t">Livraison</h3>
+            <p data-i18n="sv2.d">Un service pratique qui vient à vous, sans que vous ayez à vous déplacer.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-3.svg → photo de lustrage de carrosserie -->
+        <article class="card reveal">
+          <img src="lustrage.jfif" alt="Lustrage de carrosserie" data-i18n-attr="alt=sv3.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">03</span>
+            <h3 data-i18n="sv3.t">Lustrage de Carrosserie</h3>
+            <p data-i18n="sv3.d">Un lustrage soigné pour redonner éclat et brillance à la peinture de votre véhicule.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-4.svg → photo de nettoyage intérieur à l'aspirateur -->
+        <article class="card reveal">
+          <img src="nettoyage a laspirateur.jfif" alt="Nettoyage à l'aspirateur de l'intérieur" data-i18n-attr="alt=sv4.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">04</span>
+            <h3 data-i18n="sv4.t">Nettoyage à l'Aspirateur de l'Intérieur</h3>
+            <p data-i18n="sv4.d">Sièges, tapis et habitacle nettoyés en profondeur pour un intérieur frais et propre.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-5.svg → photo de passage d'aspirateur -->
+        <article class="card reveal">
+          <img src="passage.jfif" alt="Passage de l'aspirateur" data-i18n-attr="alt=sv5.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">05</span>
+            <h3 data-i18n="sv5.t">Passage de l'Aspirateur</h3>
+            <p data-i18n="sv5.d">Un passage d'aspirateur efficace pour éliminer poussières et saletés du véhicule.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-6.svg → photo de polissage -->
+        <article class="card reveal">
+          <img src="polissage.jfif" alt="Polissage automobile" data-i18n-attr="alt=sv6.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">06</span>
+            <h3 data-i18n="sv6.t">Polissage</h3>
+            <p data-i18n="sv6.d">Un polissage professionnel pour améliorer l'aspect de la carrosserie de votre voiture.</p>
+          </div>
+        </article>
+
+        <!-- IMAGE À REMPLACER : images/service-7.svg → photo de rénovation esthétique -->
+        <article class="card reveal">
+          <img src="renovation.jfif" alt="Rénovation esthétique automobile" data-i18n-attr="alt=sv7.alt" loading="lazy" width="800" height="600">
+          <div class="card__body">
+            <span class="card__num">07</span>
+            <h3 data-i18n="sv7.t">Rénovation Esthétique Automobile</h3>
+            <p data-i18n="sv7.d">Redonnez à votre véhicule une apparence soignée grâce à une remise en état esthétique.</p>
+          </div>
+        </article>
+
+        <article class="card card--cta reveal">
+          <div class="card__body">
+            <h3 data-i18n="sv.cta.t">Besoin d'un lavage pour votre véhicule ?</h3>
+            <p data-i18n="sv.cta.d">Contactez-nous pour organiser votre intervention à domicile.</p>
+            <a class="btn btn--primary" href="tel:+212720433639" data-i18n="sv.cta.btn">Appeler le <span class="num" dir="ltr">+212 720-433639</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 3 bis : AVANT / APRÈS ================= -->
+  <section class="section section--dark" id="avant-apres">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow" data-i18n="ba.eyebrow">[ Nos résultats ]</span>
+        <h2 data-i18n="ba.title">Avant / Après</h2>
+        <p data-i18n="ba.sub">Découvrez la transformation et la différence après notre nettoyage professionnel.</p>
+      </div>
+
+      <!-- Chaque carte contient UNE SEULE image qui montre déjà AVANT et APRÈS côte à côte.
+           IMAGES À REMPLACER : déposez vos 3 fichiers dans /images avec exactement ces noms :
+           images/before-after-1.jpg · images/before-after-2.jpg · images/before-after-3.jpg
+           (tant qu'un fichier est absent, un cadre de remplacement s'affiche à sa place). -->
+      <div class="ba">
+        <figure class="ba__card reveal">
+          <!-- IMAGE À REMPLACER : images/before-after-1.jpg -->
+          <img src="before after 1.jpeg" alt="Comparaison avant et après nettoyage, exemple 1" data-i18n-attr="alt=ba.alt1" loading="lazy" decoding="async">
+          <div class="ba__ph" aria-hidden="true"><span data-i18n="ba.ph">Image avant / après à ajouter :</span><code>images/before-after-1.jpg</code></div>
+        </figure>
+        <figure class="ba__card reveal">
+          <!-- IMAGE À REMPLACER : images/before-after-2.jpg -->
+          <img src="before after 2.jpeg" alt="Comparaison avant et après nettoyage, exemple 2" data-i18n-attr="alt=ba.alt2" loading="lazy" decoding="async">
+          <div class="ba__ph" aria-hidden="true"><span data-i18n="ba.ph">Image avant / après à ajouter :</span><code>images/before-after-2.jpg</code></div>
+        </figure>
+        <figure class="ba__card reveal">
+          <!-- IMAGE À REMPLACER : images/before-after-3.jpg -->
+          <img src="before after 3.jpeg" alt="Comparaison avant et après nettoyage, exemple 3" data-i18n-attr="alt=ba.alt3" loading="lazy" decoding="async">
+          <div class="ba__ph" aria-hidden="true"><span data-i18n="ba.ph">Image avant / après à ajouter :</span><code>images/before-after-3.jpg</code></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 4 : À PROPOS ================= -->
+  <section class="section section--light" id="apropos">
+    <div class="container about">
+      <div class="about__text reveal">
+        <span class="eyebrow eyebrow--accent" data-i18n="ab.eyebrow">[ À propos ]</span>
+        <h2 data-i18n="ab.title">Votre spécialiste du lavage automobile à Kénitra</h2>
+        <p data-i18n="ab.text">Chez PRO CLEAN MOBILE KENITRA, nous mettons notre savoir-faire au service de votre véhicule. Profitez d'un nettoyage professionnel et d'un entretien automobile de qualité, directement à votre domicile.</p>
+        <ul class="about__list">
+          <li>
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V21H3z"/><path d="M9 21v-6h6v6"/></svg></span>
+            <div><h4 data-i18n="ab.l1.t">Lavage à domicile</h4><p data-i18n="ab.l1.d">Nous intervenons directement chez vous à Kénitra.</p></div>
+          </li>
+          <li>
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg></span>
+            <div><h4 data-i18n="ab.l2.t">Entretien de qualité</h4><p data-i18n="ab.l2.d">Un nettoyage soigné pour l'extérieur comme pour l'intérieur.</p></div>
+          </li>
+        </ul>
+        <a class="btn btn--dark" href="#contact" data-i18n="ab.btn">Nous contacter</a>
+      </div>
+      <div class="about__img reveal">
+        <!-- IMAGE À REMPLACER : images/about.svg → grande photo de voiture propre / de votre équipe au travail -->
+        <img src="about photo.jpeg" alt="PRO CLEAN MOBILE KENITRA - spécialiste du lavage automobile à Kénitra" data-i18n-attr="alt=ab.alt" loading="lazy" width="900" height="1000">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 5 : COMMENT ÇA MARCHE ================= -->
+  <section class="section section--dark" id="process">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow" data-i18n="pr.eyebrow">[ Comment ça marche ]</span>
+        <h2 data-i18n="pr.title">Un lavage auto en trois étapes</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step__ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          </div>
+          <span class="step__num">01</span>
+          <h3 data-i18n="pr.s1.t">Réservation</h3>
+          <p data-i18n="pr.s1.d">Contactez-nous par téléphone ou WhatsApp.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step__ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M3 13l2-5a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 5v4H3z"/><circle cx="7.5" cy="17" r="1.5"/><circle cx="16.5" cy="17" r="1.5"/></svg>
+          </div>
+          <span class="step__num">02</span>
+          <h3 data-i18n="pr.s2.t">Intervention</h3>
+          <p data-i18n="pr.s2.d">Nous organisons le nettoyage de votre voiture à votre domicile.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step__ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <span class="step__num">03</span>
+          <h3 data-i18n="pr.s3.t">Résultat</h3>
+          <p data-i18n="pr.s3.d">Profitez d'un véhicule propre et bien entretenu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 6 : POURQUOI NOUS CHOISIR ================= -->
+  <section class="section" id="pourquoi">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--accent" data-i18n="wy.eyebrow">[ Pourquoi nous choisir ]</span>
+        <h2 data-i18n="wy.title">Pourquoi choisir PRO CLEAN MOBILE KENITRA ?</h2>
+      </div>
+      <div class="why">
+        <div class="why__card reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V21H3z"/><path d="M9 21v-6h6v6"/></svg></span>
+          <h3 data-i18n="wy.1.t">Lavage à domicile</h3>
+          <p data-i18n="wy.1.d">Nous venons à vous, là où se trouve votre voiture.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></span>
+          <h3 data-i18n="wy.2.t">Nettoyage professionnel</h3>
+          <p data-i18n="wy.2.d">Un travail soigné, intérieur et extérieur.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span>
+          <h3 data-i18n="wy.3.t">Entretien automobile</h3>
+          <p data-i18n="wy.3.d">Un suivi de qualité pour préserver l'aspect de votre véhicule.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+          <h3 data-i18n="wy.4.t">Services adaptés</h3>
+          <p data-i18n="wy.4.d">Des prestations adaptées aux besoins de chaque client.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 7 : GALERIE ================= -->
+  <section class="section section--dark" id="galerie">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow" data-i18n="ga.eyebrow">[ Galerie ]</span>
+        <h2 data-i18n="ga.title">Notre savoir-faire en images</h2>
+        <p data-i18n="ga.sub">Un aperçu de nos prestations.</p>
+      </div>
+      <div class="gallery">
+        <!-- IMAGE À REMPLACER : images/gallery-1.svg → lavage extérieur -->
+        <figure class="gallery__item g1 reveal"><img src="gallery exterieur.jpeg" alt="Lavage extérieur d'une voiture" data-i18n-attr="alt=ga.a1" loading="lazy" width="900" height="700"><figcaption data-i18n="ga.c1">Lavage extérieur</figcaption></figure>
+        <!-- IMAGE À REMPLACER : images/gallery-2.svg → nettoyage intérieur -->
+        <figure class="gallery__item g2 reveal"><img src="gallery interieur.jpeg" alt="Nettoyage intérieur d'un véhicule" data-i18n-attr="alt=ga.a2" loading="lazy" width="900" height="700"><figcaption data-i18n="ga.c2">Nettoyage intérieur</figcaption></figure>
+        <!-- IMAGE À REMPLACER : images/gallery-3.svg → polissage -->
+        <figure class="gallery__item g3 reveal"><img src="gallery polissage.jpeg" alt="Polissage de carrosserie" data-i18n-attr="alt=ga.a3" loading="lazy" width="900" height="700"><figcaption data-i18n="ga.c3">Polissage</figcaption></figure>
+        <!-- IMAGE À REMPLACER : images/gallery-4.svg → detailing professionnel -->
+        <figure class="gallery__item g4 reveal"><img src="gallery dettaiing.jpeg" alt="Detailing professionnel" data-i18n-attr="alt=ga.a4" loading="lazy" width="900" height="700"><figcaption data-i18n="ga.c4">Detailing professionnel</figcaption></figure>
+        <!-- IMAGE À REMPLACER : images/gallery-5.svg → véhicule propre et brillant -->
+        <figure class="gallery__item g5 reveal"><img src="gallery brillant.jpeg" alt="Véhicule propre et brillant" data-i18n-attr="alt=ga.a5" loading="lazy" width="900" height="700"><figcaption data-i18n="ga.c5">Véhicule brillant</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 8 : AVIS CLIENTS ================= -->
+  <section class="section" id="avis">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--accent" data-i18n="rv.eyebrow">[ Avis clients ]</span>
+        <h2 data-i18n="rv.title">Ce que disent nos clients sur Google</h2>
+      </div>
+      <div class="reviews">
+        <div class="reviews__count reveal">
+          <div class="google-g" aria-hidden="true">G</div>
+          <strong class="reviews__title" data-i18n="rv.count">Avis Google</strong>
+          <span data-i18n="rv.label">Découvrez les avis de nos clients</span>
+          <a class="btn btn--primary" href="https://www.google.com/maps/place/Proclean+Mobile+Lavage+%C3%80+Domicile/" target="_blank" rel="noopener" data-i18n="rv.btn">Voir tous les avis sur Google</a>
+        </div>
+        <div class="reviews__list">
+          <blockquote class="review reveal">
+            <p data-i18n="rv.q1">« Bon service 👍 »</p>
+            <footer><bdi>Marouane Alouaoui</bdi> · <span data-i18n="rv.g">Avis Google</span></footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <p data-i18n="rv.q1">« Bon service 👍 »</p>
+            <footer><bdi>Yara Amir</bdi> · <span data-i18n="rv.g">Avis Google</span></footer>
+          </blockquote>
+          <blockquote class="review review--small reveal">
+            <p data-i18n="rv.q3">« Que Dieu le bénisse, son service est impeccable et excellent 👌 »</p>
+            <footer><bdi>Jihane Goudini</bdi> · <span data-i18n="rv.g">Avis Google</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 9 : CONTACT ================= -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow" data-i18n="ct.eyebrow">[ Contact ]</span>
+        <h2 data-i18n="ct.title">Réservez votre lavage à domicile</h2>
+        <p>PRO CLEAN MOBILE KENITRA</p>
+      </div>
+      <div class="contact">
+        <a class="contact__card reveal" href="tel:+212720433639">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+          <h3 data-i18n="ct.phone">Téléphone</h3>
+          <p><span class="num" dir="ltr">+212 720-433639</span></p>
+        </a>
+        <a class="contact__card reveal" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.3L3 20.5l1.7-5A8.4 8.4 0 1 1 21 11.5z"/></svg></span>
+          <h3 data-i18n="ct.wa">WhatsApp</h3>
+          <p><span class="num" dir="ltr">+212 720-433639</span></p>
+        </a>
+        <a class="contact__card reveal" href="https://www.google.com/maps/place/Proclean+Mobile+Lavage+%C3%80+Domicile/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <h3 data-i18n="ct.loc">Localisation</h3>
+          <p data-i18n="ct.loc.v">Kénitra, Maroc<br><small>Voir sur Google Maps</small></p>
+        </a>
+        <a class="contact__card reveal" href="https://www.instagram.com/proclean_mobile_kenitra/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></span>
+          <h3 data-i18n="ct.insta">Instagram</h3>
+          <p><bdi dir="ltr">@proclean_mobile_kenitra</bdi></p>
+        </a>
+      </div>
+      <div class="contact__btns reveal">
+        <a class="btn btn--primary" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener" data-i18n="ct.btn1">Réserver sur WhatsApp</a>
+        <a class="btn btn--outline" href="tel:+212720433639" data-i18n="ct.btn2">Appeler maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ================= SECTION 10 : FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#accueil" class="logo" aria-label="PRO CLEAN MOBILE KENITRA - Accueil" data-i18n-attr="aria-label=logo.aria"><img class="logo__img" src="logo lavage ayoub.jpeg" alt="Logo PRO CLEAN MOBILE KENITRA" data-i18n-attr="alt=logo.img.alt" width="48" height="48"><span class="logo__text"><span class="logo__name">PRO CLEAN <b>MOBILE</b></span><small class="logo__city">KENITRA</small></span></a>
+        <p class="footer__about" data-i18n="ft.about">PRO CLEAN MOBILE KENITRA : lavage auto professionnel à domicile à Kénitra.</p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.nav">Navigation</h4>
+        <ul>
+          <li><a href="#accueil" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#apropos" data-i18n="nav.about">À propos</a></li>
+          <li><a href="#galerie" data-i18n="nav.gallery">Galerie</a></li>
+          <li><a href="#avis" data-i18n="nav.reviews">Avis</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.services">Services</h4>
+        <ul>
+          <li><a href="#services" data-i18n="sv1.t">Lavage Auto à Domicile</a></li>
+          <li><a href="#services" data-i18n="sv2.t">Livraison</a></li>
+          <li><a href="#services" data-i18n="sv3.t">Lustrage de Carrosserie</a></li>
+          <li><a href="#services" data-i18n="ft.s4">Nettoyage de l'Intérieur</a></li>
+          <li><a href="#services" data-i18n="sv6.t">Polissage</a></li>
+          <li><a href="#services" data-i18n="ft.s6">Rénovation Esthétique</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.contact">Contact</h4>
+        <ul>
+          <li><a href="tel:+212720433639"><span class="num" dir="ltr">+212 720-433639</span></a></li>
+          <li data-i18n="ft.loc">Kénitra, Maroc</li>
+          <li><a href="https://www.instagram.com/proclean_mobile_kenitra/" target="_blank" rel="noopener" data-i18n="ct.insta">Instagram</a></li>
+          <li><a href="https://www.google.com/maps/place/Proclean+Mobile+Lavage+%C3%80+Domicile/" target="_blank" rel="noopener" data-i18n="ft.maps">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p data-i18n="ft.copy">© <span id="year">2026</span> PRO CLEAN MOBILE KENITRA. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bouton WhatsApp flottant (mobile) -->
+  <a class="wa-float" data-wa href="https://wa.me/212720433639?text=Bonjour%20PRO%20CLEAN%20MOBILE%20KENITRA%2C%20je%20souhaite%20r%C3%A9server%20un%20lavage%20%C3%A0%20domicile." target="_blank" rel="noopener" aria-label="Réserver sur WhatsApp" data-i18n-attr="aria-label=wa.aria">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.3L3 20.5l1.7-5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
